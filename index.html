@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Интернет-Магазин | Colgotok & Bel'e</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script defer src="scripts.js"></script>
+</head>
+<body>
+    <header class="navbar">
+        <h1><a href="/">Colgotok & Bel'e</a></h1>
+        <nav>
+            <ul>
+                <li><a href="#catalog">Каталог</a></li>
+                <li><a href="#about">О нас</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+        </nav>
+        <div id="cart-icon"><i class="fas fa-shopping-cart"></i></div>
+    </header>
+
+    <main>
+        <section id="hero">
+            <h2>Ваш идеальный выбор белья и колготок!</h2>
+            <p>Высокое качество, стильный дизайн и комфорт гарантированы.</p>
+        </section>
+
+        <section id="catalog">
+            <h2>Каталог Товаров</h2>
+            <div class="product-grid">
+                <!-- Динамическая загрузка товаров -->
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>О Нас</h2>
+            <p>Мы ценим каждого клиента и стараемся предложить лучшие изделия высокого качества. Мы работаем исключительно с проверенными поставщиками, чтобы наши клиенты могли наслаждаться удобством и стилем наших изделий каждый день.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Связаться с нами</h2>
+            <address>
+                Электронная почта: info@colgotoki.ru<br>
+                Телефоны поддержки: +7 (495) 123-45-67
+            </address>
+        </section>
+    </main>
+
+    <footer>
+        <small>© ${new Date().getFullYear()} Colgotok & Bel'e</small>
+    </footer>
+</body>
+</html>
